@@ -1,0 +1,510 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_BSEG                          
+C:   00000000  l_BSEG_BYTES                    
+C:   00000000  l_CABS                          
+C:   00000000  l_CONST                         
+C:   00000000  l_GSINIT                        
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_OSEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_2                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_HOME                          
+C:   00000006  s_GSINIT0                       
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  s_REG_BANK_1                    
+C:   00000008  s_SSEG                          
+C:   00000009  s_GSINIT1                       
+C:   00000009  s_GSINIT2                       
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000013  s_GSINIT3                       
+C:   00000018  s_BIT_BANK                      
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000018  s_OSEG                          
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   0000002A  l_GSINIT4                       
+C:   00000035  s_GSINIT4                       
+C:   0000004B  l_CSEG                          
+C:   0000005F  s_GSFINAL                       
+C:   0000005F  s_GSINIT                        
+C:   0000005F  s_GSINIT5                       
+C:   00000062  s_CSEG                          
+C:   00000080  l_DSEG                          
+C:   000000AD  s_CONST                         
+C:   000000AD  s_XINIT                         
+C:   000000F8  l_SSEG                          
+C:   00000100  l_IRAM                          
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  _IOA                               blink
+     00000081  _SP                                blink
+     00000082  _DPL                               blink
+     00000083  _DPH                               blink
+     00000084  _DPL1                              blink
+     00000085  _DPH1                              blink
+     00000086  _DPS                               blink
+     00000087  _PCON                              blink
+     00000088  _TCON                              blink
+     00000089  _TMOD                              blink
+     0000008A  _TL0                               blink
+     0000008B  _TL1                               blink
+     0000008C  _TH0                               blink
+     0000008D  _TH1                               blink
+     0000008E  _CKCO                              blink
+     0000008F  _SPC_                              blink
+     00000090  _IOB                               blink
+     00000091  _EXIF                              blink
+     00000092  _MPA                               blink
+     00000098  _SCO                               blink
+     00000099  _SBU                               blink
+     0000009A  _APTR1H                            blink
+     0000009B  _APTR1L                            blink
+     0000009C  _AUTODAT1                          blink
+     0000009D  _AUTOPTRH2                         blink
+     0000009E  _AUTOPTRL2                         blink
+     0000009F  _AUTODAT2                          blink
+     000000A0  _IOC                               blink
+     000000A0  __XPAGE                            
+     000000A1  _INT2CLR                           blink
+     000000A2  _INT4CLR                           blink
+     000000A8  _IE                                blink
+     000000AA  _EP2468STAT                        blink
+     000000AB  _EP24FIFOFLGS                      blink
+     000000AC  _EP68FIFOFLGS                      blink
+     000000AF  _AUTOPTRSETUP                      blink
+     000000B0  _IOD                               blink
+     000000B1  _IOE                               blink
+     000000B2  _OEA                               blink
+     000000B3  _OEB                               blink
+     000000B4  _OEC                               blink
+     000000B5  _OED                               blink
+     000000B6  _OEE                               blink
+     000000B8  _IP                                blink
+     000000BA  _EP01STAT                          blink
+     000000BB  _GPIFTRIG                          blink
+     000000BD  _GPIFSGLDATH                       blink
+     000000BE  _GPIFSGLDATLX                      blink
+     000000BF  _GPIFSGLDATLNOX                    blink
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000C0  _SCON1                             blink
+     000000C1  _SBUF1                             blink
+     000000C8  _T2CON                             blink
+     000000CA  _RCAP2L                            blink
+     000000CB  _RCAP2H                            blink
+     000000CC  _TL2                               blink
+     000000CD  _TH2                               blink
+     000000D0  _PSW                               blink
+     000000D8  _EICON                             blink
+     000000E0  _ACC                               blink
+     000000E8  _EIE                               blink
+     000000F0  _B                                 blink
+     000000F8  _EIP                               blink
+     0000E400  _GPIF_WAVE_DATA                    blink
+     0000E480  _RES_WAVEDATA_END                  blink
+     0000E600  _CPUCS                             blink
+     0000E601  _IFCONFIG                          blink
+     0000E602  _PINFLAGSAB                        blink
+     0000E603  _PINFLAGSCD                        blink
+     0000E604  _FIFORESET                         blink
+     0000E605  _BREAKPT                           blink
+     0000E606  _BPADDRH                           blink
+     0000E607  _BPADDRL                           blink
+     0000E608  _UART230                           blink
+     0000E609  _FIFOPINPOLAR                      blink
+     0000E60A  _REVID                             blink
+     0000E60B  _REVCTL                            blink
+     0000E60C  _GPIFHOLDAMOUNT                    blink
+     0000E610  _EP1OUTCFG                         blink
+     0000E611  _EP1INCFG                          blink
+     0000E612  _EP2CFG                            blink
+     0000E613  _EP4CFG                            blink
+     0000E614  _EP6CFG                            blink
+     0000E615  _EP8CFG                            blink
+     0000E618  _EP2FIFOCFG                        blink
+     0000E619  _EP4FIFOCFG                        blink
+     0000E61A  _EP6FIFOCFG                        blink
+     0000E61B  _EP8FIFOCFG                        blink
+     0000E620  _EP2AUTOINLENH                     blink
+     0000E621  _EP2AUTOINLENL                     blink
+     0000E622  _EP4AUTOINLENH                     blink
+     0000E623  _EP4AUTOINLENL                     blink
+     0000E624  _EP6AUTOINLENH                     blink
+     0000E625  _EP6AUTOINLENL                     blink
+     0000E626  _EP8AUTOINLENH                     blink
+     0000E627  _EP8AUTOINLENL                     blink
+     0000E630  _EP2FIFOPFH                        blink
+     0000E631  _EP2FIFOPFL                        blink
+     0000E632  _EP4FIFOPFH                        blink
+     0000E633  _EP4FIFOPFL                        blink
+     0000E634  _EP6FIFOPFH                        blink
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000E635  _EP6FIFOPFL                        blink
+     0000E636  _EP8FIFOPFH                        blink
+     0000E637  _EP8FIFOPFL                        blink
+     0000E640  _EP2ISOINPKTS                      blink
+     0000E641  _EP4ISOINPKTS                      blink
+     0000E642  _EP6ISOINPKTS                      blink
+     0000E643  _EP8ISOINPKTS                      blink
+     0000E648  _INPKTEND                          blink
+     0000E649  _OUTPKTEND                         blink
+     0000E650  _EP2FIFOIE                         blink
+     0000E651  _EP2FIFOIRQ                        blink
+     0000E652  _EP4FIFOIE                         blink
+     0000E653  _EP4FIFOIRQ                        blink
+     0000E654  _EP6FIFOIE                         blink
+     0000E655  _EP6FIFOIRQ                        blink
+     0000E656  _EP8FIFOIE                         blink
+     0000E657  _EP8FIFOIRQ                        blink
+     0000E658  _IBNIE                             blink
+     0000E659  _IBNIRQ                            blink
+     0000E65A  _NAKIE                             blink
+     0000E65B  _NAKIRQ                            blink
+     0000E65C  _USBIE                             blink
+     0000E65D  _USBIRQ                            blink
+     0000E65E  _EPIE                              blink
+     0000E65F  _EPIRQ                             blink
+     0000E660  _GPIFIE                            blink
+     0000E661  _GPIFIRQ                           blink
+     0000E662  _USBERRIE                          blink
+     0000E663  _USBERRIRQ                         blink
+     0000E664  _ERRCNTLIM                         blink
+     0000E665  _CLRERRCNT                         blink
+     0000E666  _INT2IVEC                          blink
+     0000E667  _INT4IVEC                          blink
+     0000E668  _INTSETUP                          blink
+     0000E670  _PORTACFG                          blink
+     0000E671  _PORTCCFG                          blink
+     0000E672  _PORTECFG                          blink
+     0000E678  _I2CS                              blink
+     0000E679  _I2DAT                             blink
+     0000E67A  _I2CTL                             blink
+     0000E67B  _XAUTODAT1                         blink
+     0000E67C  _XAUTODAT2                         blink
+     0000E67D  _UDMACRCH                          blink
+     0000E67E  _UDMACRCL                          blink
+     0000E67F  _UDMACRCQUAL                       blink
+     0000E680  _USBCS                             blink
+     0000E681  _SUSPEND                           blink
+     0000E682  _WAKEUPCS                          blink
+     0000E683  _TOGCTL                            blink
+     0000E684  _USBFRAMEH                         blink
+     0000E685  _USBFRAMEL                         blink
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000E686  _MICROFRAME                        blink
+     0000E687  _FNADDR                            blink
+     0000E68A  _EP0BCH                            blink
+     0000E68B  _EP0BCL                            blink
+     0000E68D  _EP1OUTBC                          blink
+     0000E68F  _EP1INBC                           blink
+     0000E690  _EP2BCH                            blink
+     0000E691  _EP2BCL                            blink
+     0000E694  _EP4BCH                            blink
+     0000E695  _EP4BCL                            blink
+     0000E698  _EP6BCH                            blink
+     0000E699  _EP6BCL                            blink
+     0000E69C  _EP8BCH                            blink
+     0000E69D  _EP8BCL                            blink
+     0000E6A0  _EP0CS                             blink
+     0000E6A1  _EP1OUTCS                          blink
+     0000E6A2  _EP1INCS                           blink
+     0000E6A3  _EP2CS                             blink
+     0000E6A4  _EP4CS                             blink
+     0000E6A5  _EP6CS                             blink
+     0000E6A6  _EP8CS                             blink
+     0000E6A7  _EP2FIFOFLGS                       blink
+     0000E6A8  _EP4FIFOFLGS                       blink
+     0000E6A9  _EP6FIFOFLGS                       blink
+     0000E6AA  _EP8FIFOFLGS                       blink
+     0000E6AB  _EP2FIFOBCH                        blink
+     0000E6AC  _EP2FIFOBCL                        blink
+     0000E6AD  _EP4FIFOBCH                        blink
+     0000E6AE  _EP4FIFOBCL                        blink
+     0000E6AF  _EP6FIFOBCH                        blink
+     0000E6B0  _EP6FIFOBCL                        blink
+     0000E6B1  _EP8FIFOBCH                        blink
+     0000E6B2  _EP8FIFOBCL                        blink
+     0000E6B3  _SUDPTRH                           blink
+     0000E6B4  _SUDPTRL                           blink
+     0000E6B5  _SUDPTRCTL                         blink
+     0000E6B8  _SETUPDAT                          blink
+     0000E6C0  _GPIFWFSELECT                      blink
+     0000E6C1  _GPIFIDLECS                        blink
+     0000E6C2  _GPIFIDLECTL                       blink
+     0000E6C3  _GPIFCTLCFG                        blink
+     0000E6C4  _GPIFADRH                          blink
+     0000E6C5  _GPIFADRL                          blink
+     0000E6C6  _FLOWSTATE                         blink
+     0000E6C7  _FLOWLOGIC                         blink
+     0000E6C8  _FLOWEQ0CTL                        blink
+     0000E6C9  _FLOWEQ1CTL                        blink
+     0000E6CA  _FLOWHOLDOFF                       blink
+     0000E6CB  _FLOWSTB                           blink
+     0000E6CC  _FLOWSTBEDGE                       blink
+     0000E6CD  _FLOWSTBHPERIOD                    blink
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000E6CE  _GPIFTCB3                          blink
+     0000E6CF  _GPIFTCB2                          blink
+     0000E6D0  _GPIFTCB1                          blink
+     0000E6D1  _GPIFTCB0                          blink
+     0000E6D2  _EP2GPIFFLGSEL                     blink
+     0000E6D3  _EP2GPIFPFSTOP                     blink
+     0000E6D4  _EP2GPIFTRIG                       blink
+     0000E6DA  _EP4GPIFFLGSEL                     blink
+     0000E6DB  _EP4GPIFPFSTOP                     blink
+     0000E6DC  _EP4GPIFTRIG                       blink
+     0000E6E2  _EP6GPIFFLGSEL                     blink
+     0000E6E3  _EP6GPIFPFSTOP                     blink
+     0000E6E4  _EP6GPIFTRIG                       blink
+     0000E6EA  _EP8GPIFFLGSEL                     blink
+     0000E6EB  _EP8GPIFPFSTOP                     blink
+     0000E6EC  _EP8GPIFTRIG                       blink
+     0000E6F0  _XGPIFSGLDATH                      blink
+     0000E6F1  _XGPIFSGLDATLX                     blink
+     0000E6F2  _XGPIFSGLDATLNOX                   blink
+     0000E6F3  _GPIFREADYCFG                      blink
+     0000E6F4  _GPIFREADYSTAT                     blink
+     0000E6F5  _GPIFABORT                         blink
+     0000E6F8  _DBUG                              blink
+     0000E6F9  _TESTCFG                           blink
+     0000E6FA  _USBTEST                           blink
+     0000E6FB  _CT1                               blink
+     0000E6FC  _CT2                               blink
+     0000E6FD  _CT3                               blink
+     0000E6FE  _CT4                               blink
+     0000E740  _EP0BUF                            blink
+     0000E780  _EP1OUTBUF                         blink
+     0000E7C0  _EP1INBUF                          blink
+     0000F000  _EP2FIFOBUF                        blink
+     0000F400  _EP4FIFOBUF                        blink
+     0000F800  _EP6FIFOBUF                        blink
+     0000FC00  _EP8FIFOBUF                        blink
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000080 =         128. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000008    000000F8 =         248. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000008  __start__stack                     blink
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000003  __sdcc_program_startup             blink
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000006    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000006  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             00000009    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000013    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000013  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000035    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000035  __mcs51_genRAMCLEAR                
+C:   0000003B  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             0000005F    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                00000062    0000004B =          75. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000062  _delay_1ms                         blink
+C:   0000006D  _delay_ms                          blink
+C:   00000080  _main                              blink
+C:   000000A9  __sdcc_external_startup            _startup
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+
+Files Linked                              [ module(s) ]
+
+blink.rel                                 [  ]
+
+
+Libraries Linked                          [ object file ]
+
+/usr/local/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtclear.rel ]
+/usr/local/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxinit.rel ]
+/usr/local/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtxclear.rel ]
+/usr/local/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+/usr/local/bin/../share/sdcc/lib/small/mcs51.lib
+                                          [ crtstart.rel ]
+/usr/local/bin/../share/sdcc/lib/small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+
